@@ -9,7 +9,7 @@ Use issues to:
 * Report bugs
 * Report issues with documentation (Missing links, inconsistent naming, suggest rewording)
 
-**Note:** Don't report security vulnerabilities using GitHub's issue tracker. For vulnerabilities, please send us an email instead (see [SECURITY.md](./SECURITY.md)).
+**Note:** Don't report security vulnerabilities using GitHub's issue tracker. For vulnerabilities, please send us an email instead (see [SECURITY.md](https://github.com/JTTechnic/.github/blob/master/.github/SECURITY.md)).
 
 ### When to use Discussions
 
@@ -31,7 +31,7 @@ Below is more information about the workflow for submitting pull request, and gu
 ### Workflow
 
 1. Fork and clone this repository.
-2. Create a new branch in your fork based off the **main** branch.
+2. Create a new branch in your fork based off the **main** branch.SECURITY.md
 3. Make your changes.
 4. Commit your changes, and push them.
 5. Submit a pull request.
