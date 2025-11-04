@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contact Support
+    url: mailto:support@jaronline.dev
+    about: Send us an email for support.
