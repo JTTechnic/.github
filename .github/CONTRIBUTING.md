@@ -7,8 +7,9 @@
 Use issues to:
 
 * Report bugs
-* Report security vulnerabilities (see [SECURITY.md](./SECURITY.md))
 * Report issues with documentation (Missing links, inconsistent naming, suggest rewording)
+
+**Note:** Don't report security vulnerabilities using GitHub's issue tracker. For vulnerabilities, please send us an email instead (see [SECURITY.md](./SECURITY.md)).
 
 ### When to use Discussions
 
