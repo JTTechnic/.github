@@ -1,0 +1,37 @@
+name: Documentation issue report
+description: Report an issue with the documentation
+title: "docs: "
+type: Documentation
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue with our documentation! Please fill out the following template to help us understand and resolve the issue.
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Is there an existing issue for this issue?
+      description: Before creating a new issue, please check if the issue has already been reported.
+      options:
+        - label: There are no existing issues for this documentation issue
+          required: true
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Description of the issue
+      description: Provide a detailed description of the issue you found.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, please attach screenshots of the part of the documentation at issue.
+      placeholder: You can paste images directly into this field or upload them using the "Attach files" button.
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Any other information that might be relevant to the issue report.
+      placeholder: Include any logs, error messages, or other context that might help in diagnosing the issue.
